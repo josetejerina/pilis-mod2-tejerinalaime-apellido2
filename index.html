@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expo Vinicola - Jujuy</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <header>
@@ -61,7 +62,7 @@
             <!-- Registro -->
             <section class="reg">
                 <p>Lorem ipsum dolor sit amet.</p>
-                <form class="form-contacto">
+                <form class="form-contacto" id="formulario">
                     <fieldset>
                         <legend>Contacto</legend>
                         <label for="comercio">Comercio</label>
@@ -71,7 +72,7 @@
                         <label for="celular">Celular</label>
                         <input type="number" name="celular" id="celular">
                     </fieldset>
-                    <button>Enviar</button>
+                    <button id="send">Enviar</button>
                 </form>
             </section>
         </div>
@@ -92,5 +93,7 @@
         </div>
 
     </footer>    
+    <script src="main.js"></script>
 </body>
+
 </html>
