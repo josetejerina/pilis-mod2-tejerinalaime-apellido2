@@ -32,7 +32,7 @@ function onClick (event) {
   
   
   
-  
+} 
   
   let boton = document.getElementById("send");
-  boton.addEventListener("click", onClick);  }
+  boton.addEventListener("click", onClick);  
